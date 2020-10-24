@@ -98,7 +98,7 @@ cd meta
 
 touch SarsCov-2_Spike.txt
 
-mv sarscov2_assembly.fasta.gz sarscov2_genome.fasta sarscov2_genome.gff3 splike_a.faa splike_b.faa splike_c.faa SRR10971381_R1.fastq.gz SRR10971381_R2.fastq.gz data/raw_data/
+mv sarscov2_assembly.fasta.gz sarscov2_genome.fasta sarscov2_genome.gff3 splike_a.faa splike_b.faa splike_c.faa >SRR10971381_R1.fastq.gz SRR10971381_R2.fastq.gz data/raw_data/
 
 # Parte IV.
 
@@ -164,17 +164,17 @@ La diferencia entre el número de lecturas de los archivos .fasta ...
 **Respuesta 7:**
 
 grep '>' sarscov2_genome.fasta | wc
-    1      11      97                (Una aparicion)
+>    1      11      97                (Una aparicion)
 
 grep '>' sarscov2_assembly.fasta | wc
-    35      35    1171               (35 apariciones)
+>    35      35    1171               (35 apariciones)
 
 **Respuesta 8:**
 
 gunzip SRR10971381_R2.fastq.gz
 
 head -12 SRR10971381_R2.fastq
-    @SRR10971381.512_2
+    >@SRR10971381.512_2
     CGTGGAGTATGGCTACATACTACTTATTTGATGAGTCTGGTGAGTTTAAAGTGGCTTCACATATGTATTGTTCTTTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGT
     +
     /FFFA/A/FFFF66FFFFFF/FF/FFFFFFFFFFFFF/AFFF6FFFA6FFFFF/FFFFFFFFFFFFFFFFFF/FF/FFFFFA/FFF/FFF/A/AFA/FFFFF/=F/F/F/AFAFF//A/AFF//FFAF/FFF=FFAFFFA/A/6=///==
@@ -190,7 +190,7 @@ head -12 SRR10971381_R2.fastq
 Patrón elegido: @SRR10971381
 
 grep '@SRR10971381' SRR10971381_R2.fastq | wc
- 130022  130022 3069925                   (130022 apariciones)
+> 130022  130022 3069925                   (130022 apariciones)
 
  **Respuesta 9:**
 
@@ -225,7 +225,7 @@ una mejor visualización para el archivo.
  **Respuesta 11:**
 
 awk '$3 == "gene"' sarscov2_genome.gff3 | less -S
-  NC_045512.2     RefSeq  gene    266     21555   .       +       .       ID=gene-GU280_
+>  NC_045512.2     RefSeq  gene    266     21555   .       +       .       ID=gene-GU280_
   NC_045512.2     RefSeq  gene    21563   25384   .       +       .       ID=gene-GU280_
   NC_045512.2     RefSeq  gene    25393   26220   .       +       .       ID=gene-GU280_
   NC_045512.2     RefSeq  gene    26245   26472   .       +       .       ID=gene-GU280_
@@ -237,8 +237,8 @@ awk '$3 == "gene"' sarscov2_genome.gff3 | less -S
   NC_045512.2     RefSeq  gene    28274   29533   .       +       .       ID=gene-GU280_
   NC_045512.2     RefSeq  gene    29558   29674   .       +       .       ID=gene-GU280_
 
- awk '$3 == "gene"' sarscov2_genome.gff3 | less -S | wc
-  11     100    1822                              (11 genes)
+awk '$3 == "gene"' sarscov2_genome.gff3 | less -S | wc
+>  11     100    1822                              (11 genes)
 
 El campo 3 corresponde a ...
 
