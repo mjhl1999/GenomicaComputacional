@@ -98,7 +98,8 @@ cd meta
 
 touch SarsCov-2_Spike.txt
 
-mv sarscov2_assembly.fasta.gz sarscov2_genome.fasta sarscov2_genome.gff3 splike_a.faa splike_b.faa splike_c.faa >SRR10971381_R1.fastq.gz SRR10971381_R2.fastq.gz data/raw_data/
+mv sarscov2_assembly.fasta.gz sarscov2_genome.fasta sarscov2_genome.gff3 splike_a.faa splike_b.faa splike_c.faa 
+>SRR10971381_R1.fastq.gz SRR10971381_R2.fastq.gz data/raw_data/
 
 # Parte IV.
 
