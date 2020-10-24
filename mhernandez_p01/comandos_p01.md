@@ -165,10 +165,14 @@ La diferencia entre el número de lecturas de los archivos .fasta ...
 **Respuesta 7:**
 
 grep '>' sarscov2_genome.fasta | wc
->    1      11      97                (Una aparicion)
+>    1      11      97     
+
+(Una aparicion)
 
 grep '>' sarscov2_assembly.fasta | wc
->    35      35    1171               (35 apariciones)
+>    35      35    1171         
+
+(35 apariciones)
 
 **Respuesta 8:**
 
@@ -192,7 +196,9 @@ head -12 SRR10971381_R2.fastq
 Patrón elegido: @SRR10971381
 
 grep '@SRR10971381' SRR10971381_R2.fastq | wc
-> 130022  130022 3069925                   (130022 apariciones)
+> 130022  130022 3069925        
+
+(130022 apariciones)
 
  **Respuesta 9:**
 
