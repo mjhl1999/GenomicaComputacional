@@ -1,0 +1,17 @@
+El investigador Constancio López Macias nos habla de la anatomía del SARS-CoV-2,
+ la cual fue descifrada a través de un análisis genómico, además revisando la
+ secuenciación de sus mutaciones genéticas.
+
+Explica que en su superficie se encuentra la proteína S2, su estructura fue
+cristalizada encontrando su receptor en las células humanas: ACE2. Los cuales
+solo tenemos en el tracto gastrointestinal, respiratorio y tejido nervioso.
+
+Con el modelaje molecular se pueden desarrollar anticuerpos o moléculas para
+bloquear el receptor y así crear vacunas y medicamentos.
+
+También nos comenta las estrategias en el desarrollo de la vacuna: microorga-
+nismos vivos atenuados, atenuar el virus y microorganismos inactivados y los
+riesgos y ventajas de cada uno.
+
+Durante toda la charla nos muestra la importancia de la genómica en la lucha
+contra el virus.

@@ -1,0 +1,4 @@
+Nos brinda un modelo de las proteinas de pico del coronaviros sobre el cual se
+puede obtener información sobre las estructuras, funciones y evolución por me-
+dio de su estudio, ilustrando por ejemplo cómo los dos dominios S1 reconocen
+diferentes receptores y cómo se pueden regular.
