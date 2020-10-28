@@ -252,4 +252,5 @@ awk '$3 == "gene"' sarscov2_genome.gff3 | less -S | wc
 
 El campo 3 corresponde a ...
 
-La diferencia entre gene y CDS es ...
+La diferencia entre gene y CDS, es la región codificante del gen, CD representa todo el
+gen, con intrones y exones, y gene la región códificante del gen, es decir, los exones.
