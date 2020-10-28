@@ -160,7 +160,9 @@ head -3 sarscov2_assembly.fasta
 CACAAATCTTAACACTCTTCCCTACACGACGCTCTTCCGATCTACGCCGGGCCATTCGTA
 CGAACCGATACCTGTGGTAAAGGGTCCTACTGTATGGTGGTACACGAGTAGTAGCAAATG
 
-La diferencia entre el número de lecturas de los archivos .fasta ...
+La diferencia entre el número de lecturas de los archivos .fasta, en el .gz aparecen las secuencias 
+divididas por nodos, en cambio en los archivos no comprimidos hay más lecturas de fragmentos 
+de secuencia del DNA.
 
 **Respuesta 7:**
 
