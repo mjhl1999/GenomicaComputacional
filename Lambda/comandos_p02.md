@@ -1,17 +1,17 @@
 # Comandos de la Práctica 02
 ## Lambda
 ### Integrante 1: Hernández Leyva Mirén Jessamyn
-### Integrante 2: Muñoz Barón Luis Miguel
+### Integrante 2: Muñoz Barón Luis Miguels
 
 # Parte I.
 
 cd GenomicaComputacional/
 
-mkdir Equipo01_p02
+mkdir Lambda
 
-git add*
+git add *
 
-git commit -m "Agregando comandos_p2 y la tabla de comparativa"
+git commit -m "Agregando comandos_p2.md y la tabla de comparativa"
 
 git push origin master
 
