@@ -1,4 +1,4 @@
-# Comandos de la Práctica 02
+# Comandos de la Práctica 03
 ## Lambda
 ### Integrante 1: Hernández Leyva Mirén Jessamyn
 ### Integrante 2: Muñoz Barón Luis Miguel
