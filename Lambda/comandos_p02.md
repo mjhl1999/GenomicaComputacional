@@ -142,10 +142,18 @@ generated using the Sanger dideoxy sequencing method (Reference sequence accessi
 fuente: https://www.biostars.org/p/160377/
 
 ### Respuesta 3
-
-
-
-### Respuesta 3
 Calculen la cobertura de su genoma y el desglose que utilizaron para obtenerla.
+
+
+Se tomo el archivo ERR022075_1.fastq de https://www.ebi.ac.uk/ena/browser/view/ERX008638
+
+Lo convertimos a fasta con:
+
+sed -n '1~4s/^@/>/p;2~4p' data/ERR022075_1.fastq > data/ERR022075_1.fasta
+
+y al analizar el promedio de la longitud de sus secuencias obtuvimos:    
+
+python3 promedio.py ERR022075_1.fasta
+Promedio de la longitud de las secuencias: 101.0
 
 
