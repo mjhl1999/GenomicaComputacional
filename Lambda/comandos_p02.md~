@@ -99,24 +99,3 @@ Promedio de la longitud de las secuencias: 151.0
 
 python3 promedio.py ERR486828_1.fasta
 Promedio de la longitud de las secuencias: 151.0
-
-https://github.com/mjhl1999/GenomicaComputacional.git
-
-
-# Parte III.
-### Respuesta 3. 
-Abrir el archivo .html en cualquier buscador. Realicen una breve descripción de la calidad de ambas lecturas. Describan si las lecturas ¿Son buenas o malas? ¿Por qué? ¿Cómo es el comportamiento de las calidades?
-
-Las lecturas son casi perfectas dado que al ver el boxplot de los phretscores para ambos archivos fastq podemos notar que la puntuación obtenida ronda 32 - 39 para ambos archivos
-por lo que no es necesario llevar a cabo una fase de limpiado a los datos.
-Cabe destacar que la puntuación se eleva conforme mas lecturas fueron hechas durante la secuenciación.
-
-### Respuesta 4.
-Calculen y reporten la cobertura del genoma tomando en cuenta que:
-covertura = (cantidad de lecturas*longitud de lecturas) / total del tamaño del genoma (bp)
-
-(398824 + 410959) * 151 / 580,070 pb  = 210.7973744548
-
-Obtenido de https://www.sciencemag.org/site/feature/data/genomes/270-5235-397.pdf
-
-# Parte IV
