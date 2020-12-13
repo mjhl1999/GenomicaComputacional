@@ -38,7 +38,7 @@ git push origin master
 | Nanopore/Oxford Nanopore Technologies/1 Gb |          >5000         |     6×104     |  48/72 h |         <1         |     34    |      Real-time SMS     |
 |           Electron microscopy/ZS           |          7200          |               |   14 h   |        <0.01       |           |      Real-time SMS     |					1
 
-Deschamps, S., Llaca, V.,& May, G.. (2012). Genotyping-by-Sequencing in Plants. Biology. 1. 460-83. 10.3390/biology1030460.
+Deschamps, S., Llaca, V.,& May, G.. (2012).  Genotyping-by-Sequencing in Plants. Biology. 1. 460-83. 10.3390/biology1030460.
 
 FH Munster University of Applied Sciences. (s.f.). Analysis of next-generation sequencing data. 8/12/2020, de FH Munster Sitio web: https://www.fh-muenster.de/eti/downloads/labore/db/bioinf/BFG_Chapter09_NGS_v04.pdf
 
