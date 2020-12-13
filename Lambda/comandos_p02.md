@@ -131,13 +131,19 @@ Obtenido de https://www.sciencemag.org/site/feature/data/genomes/270-5235-397.pd
 ### Respuesta 1
 Descarguen las secuencias crudas de algún organismo modelo de su preferencia que tenga un genoma pequeño. No suban los datos a GitHub, únicamente hagan una breve descripción de las características del organismo que eligieron.
 
-Una bacteria del phylum Proteobacteria, que es simbionte intracelular de un insecto áfido (Baizongia pistacea)
+E. Coli
+Por lo general, las bacterias Escherichia coli (E. coli) viven en los intestinos de las personas y de los animales sanos. La mayoría de las variedades de Escherichia coli son inofensivas o causan diarrea breve en términos relativos. Sin embargo, algunas cepas particularmente peligrosas, como la Escherichia coli O157:H7, pueden causar cólicos abdominales intensos, diarrea con sangre y vómitos.
 
 ### Respuesta 2
 Describan qué tecnología de secuenciación fue utilizada y de ser posible la referencia del artículo donde lo reportan.
-direct application of the whole-genome shotgun sequencing method (9) to an environmental DNA sample.
 
-https://www.pnas.org/content/100/2/581
+generated using the Sanger dideoxy sequencing method (Reference sequence accession: NC_000913). 
+
+fuente: https://www.biostars.org/p/160377/
+
+### Respuesta 3
+
+
 
 ### Respuesta 3
 Calculen la cobertura de su genoma y el desglose que utilizaron para obtenerla.
