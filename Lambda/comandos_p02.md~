@@ -1,8 +1,7 @@
 # Comandos de la Práctica 02
 ## Lambda
 ### Integrante 1: Hernández Leyva Mirén Jessamyn
-### Integrante 2: Muñoz Barón Luis Miguel
-### Integrante 3: Acosta García Daniel Enrique
+### Integrante 2: Muñoz Barón Luis Miguels
 
 # Parte I.
 
@@ -127,19 +126,3 @@ covertura = (cantidad de lecturas*longitud de lecturas) / total del tamaño del 
 Obtenido de https://www.sciencemag.org/site/feature/data/genomes/270-5235-397.pdf
 
 # Parte IV
-
-### Respuesta 1
-Descarguen las secuencias crudas de algún organismo modelo de su preferencia que tenga un genoma pequeño. No suban los datos a GitHub, únicamente hagan una breve descripción de las características del organismo que eligieron.
-
-Una bacteria del phylum Proteobacteria, que es simbionte intracelular de un insecto áfido (Baizongia pistacea)
-
-### Respuesta 2
-Describan qué tecnología de secuenciación fue utilizada y de ser posible la referencia del artículo donde lo reportan.
-direct application of the whole-genome shotgun sequencing method (9) to an environmental DNA sample.
-
-https://www.pnas.org/content/100/2/581
-
-### Respuesta 3
-Calculen la cobertura de su genoma y el desglose que utilizaron para obtenerla.
-
-
