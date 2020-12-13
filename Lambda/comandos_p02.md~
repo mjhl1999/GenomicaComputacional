@@ -1,7 +1,8 @@
-# Comandos de la Práctica 02
+# Comandos de la Práctica 03
 ## Lambda
 ### Integrante 1: Hernández Leyva Mirén Jessamyn
-### Integrante 2: Muñoz Barón Luis Miguels
+### Integrante 2: Muñoz Barón Luis Miguel
+### Integrante 3: Acosta García Daniel Enrique
 
 # Parte I.
 
@@ -126,3 +127,33 @@ covertura = (cantidad de lecturas*longitud de lecturas) / total del tamaño del 
 Obtenido de https://www.sciencemag.org/site/feature/data/genomes/270-5235-397.pdf
 
 # Parte IV
+
+### Respuesta 1
+Descarguen las secuencias crudas de algún organismo modelo de su preferencia que tenga un genoma pequeño. No suban los datos a GitHub, únicamente hagan una breve descripción de las características del organismo que eligieron.
+
+E. Coli
+Por lo general, las bacterias Escherichia coli (E. coli) viven en los intestinos de las personas y de los animales sanos. La mayoría de las variedades de Escherichia coli son inofensivas o causan diarrea breve en términos relativos. Sin embargo, algunas cepas particularmente peligrosas, como la Escherichia coli O157:H7, pueden causar cólicos abdominales intensos, diarrea con sangre y vómitos.
+
+### Respuesta 2
+Describan qué tecnología de secuenciación fue utilizada y de ser posible la referencia del artículo donde lo reportan.
+
+generated using the Sanger dideoxy sequencing method (Reference sequence accession: NC_000913). 
+
+fuente: https://www.biostars.org/p/160377/
+
+### Respuesta 3
+Calculen la cobertura de su genoma y el desglose que utilizaron para obtenerla.
+
+
+Se tomo el archivo ERR022075_1.fastq de https://www.ebi.ac.uk/ena/browser/view/ERX008638
+
+Lo convertimos a fasta con:
+
+sed -n '1~4s/^@/>/p;2~4p' data/ERR022075_1.fastq > data/ERR022075_1.fasta
+
+y al analizar el promedio de la longitud de sus secuencias obtuvimos:    
+
+python3 promedio.py ERR022075_1.fasta
+Promedio de la longitud de las secuencias: 101.0
+
+

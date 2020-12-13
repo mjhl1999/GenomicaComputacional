@@ -141,6 +141,30 @@ generated using the Sanger dideoxy sequencing method (Reference sequence accessi
 
 fuente: https://www.biostars.org/p/160377/
 
+head data/ERR022075_1.fastq 
+@ERR022075.1 EAS600_70:5:1:1158:949/1
+NAACCATAATTGCGCCCCGTGCTCGGAATGATCTGCCAGAGGCCTGCGGCATTGGCGCCAGACGTTGCGTGAGGATCAACAGCGCTCTCCACTATGGGTA
++
+!###################################################################################################
+@ERR022075.2 EAS600_70:5:1:1342:931/1
+NTTCTCTTCCGATCCAACGCACACCAGCTTCATGCGGCACGGCTGGCGGTGAGTGGGGACGGCGGTATACATCGCGGTGAAAGCGGTTTTATTCACTTGT
++
+!###################################################################################################
+@ERR022075.3 EAS600_70:5:1:1429:948/1
+NCCAAGCGTCGCCACCTGCCAGAAAATATATGCCACCAGGGGGATCGCACTACCGATTATAAACACCCAGCGTAGCTTACGAATGTTGTCATCCATATAG
+hp-spectre@hp-spectre-PC:~/GenomicaComputacional/Lambda$ tail data/ERR022075_1.fastq 
++
+IIIIIIIIIIIIIIIIIIII?BCC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@ERR022075.22720099 EAS600_70:5:120:18134:20438/1
+GGTAAATAATTGGCGACCATTGTGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
++
+HHGHHHHHHHHHHGHHHHDH####!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@ERR022075.22720100 EAS600_70:5:120:19717:20432/1
+GACCGTGTTTCCATCGACCTTGTGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
++
+;6:;42=>:7BBDBD3DBDD#####!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+hp-spectre@hp-spectre-PC:~/GenomicaComputacional/Lambda$
+
 ### Respuesta 3
 Calculen la cobertura de su genoma y el desglose que utilizaron para obtenerla.
 
@@ -156,4 +180,16 @@ y al analizar el promedio de la longitud de sus secuencias obtuvimos:
 python3 promedio.py ERR022075_1.fasta
 Promedio de la longitud de las secuencias: 101.0
 
+(22,720100 * 101.0) / 4,600,000  = 498.85
 
+https://www.genome.gov/25520386/online-education-kit-1997-e-coli-genome-sequenced
+
+### Respuesta 5 
+¿Cuál es el valor de phred que utilizan sus datos?
++33
+
+### Respuesta 6
+Planteen la estrategia adecuada para mejorar las calidades de sus secuencias de ser necesario. Ej. Cortar hasta cierta longitud de bases o phred, remover adaptadores, quitar secuencias sobrerrepresentadas, etc. Incluye el software que utilizarías para hacer esto.
+
+Como en la gráfica se puede observar que los valores cuya cálidad decae muy fuertemenete son los últimos podríamos cortar hasta las bases pareadas 84 ya que la calidad es bastante aceptable a esta altura de 
+la secuenciación, para ésto podríamos utilizar trimmomatic para efectuar tareas de recorte sobre la secuencia.
